@@ -1,4 +1,11 @@
 [[redirects]]
+  from = "/data/success/"
+  force = true
+  headers = {X-From = "Netlify"}
+  to = "https://pua.puanj.com/data/success/success.html"
+  status = 200
+  
+[[redirects]]
   from = "/*"
-  to = "/pages/404.html" #-change-path-here-and-delete-this-comment
+  to = "https://pua.puanj.com/pages/404.html" #-change-path-here-and-delete-this-comment
   status = 404
