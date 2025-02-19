@@ -10,18 +10,31 @@
     <v-row class="mx-5 px-md-6">
       <v-col md="1"> </v-col>
       <v-col cols="12" md="5" class="d-flex">
+        <v-card class="px-5 pt-5" width="100%">
+          <h3 class="text-center">วิทยาลัยเทคนิคปัว</h3>
+          <div>
+            ก่อตั้งเมื่อวันที่ 7 พฤษภาคม 2539 ในชื่อ "วิทยาลัยการอาชีพปัว"
+            และเปลี่ยนเป็น "วิทยาลัยเทคนิคปัว" เมื่อ 24 สิงหาคม 2563
+            เพื่อยกระดับการศึกษา ตั้งอยู่ที่ตำบลปัว อำเภอปัว จังหวัดน่าน
+            บนพื้นที่ 50 ไร่ เปิดสอนระดับ ปวช. และ ปวส. แบ่งเป็น 2 ประเภทวิชา
+            ช่างอุตสาหกรรม (เครื่องกล, ไฟฟ้ากำลัง, ก่อสร้าง) พาณิชยกรรม (บัญชี,
+            การขาย, คอมพิวเตอร์ธุรกิจ) มีหลักสูตร วิชาชีพระยะสั้น และ
+            วิชาชีพเสริมมัธยม ครอบคลุมงานช่าง พาณิชยกรรม และเทคโนโลยี รวมถึง
+            หลักสูตรทวิศึกษา ทวิภาคี สำหรับผู้จบ ม.ต้น และ ม.ปลาย
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="5">
         <a href="https://admission.vec.go.th/web/student.htm?mode=init">
           <img
             src="https://www.puatc.ac.th//files/10000001_24103015151836.jpg"
-            width="100%"
+            width="50%"
             alt=""
           />
         </a>
-      </v-col>
-      <v-col cols="12" md="5">
         <a href="https://www.puatc.ac.th//files/10000001_23080711112150.pdf">
           <img
-            width="100%"
+            width="50%"
             src="https://www.puatc.ac.th//files/10000001_23080711112147.jpg"
             alt=""
           />
@@ -32,7 +45,7 @@
     <v-row class="mx-5 px-md-6">
       <v-col md="1"> </v-col>
       <v-col cols="12" md="5">
-        <v-card variant="tonal" width="100%" class="px-5 py-5">
+        <v-card width="100%" class="px-5 py-5">
           <a href="http://std2018.vec.go.th/">
             <img
               width="50%"
@@ -50,7 +63,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" md="5">
-        <v-card variant="tonal" width="100%" class="px-5 py-5">
+        <v-card width="100%" class="px-5 py-5">
           <a href="https://bookdosepath.com/login">
             <img
               width="50%"
@@ -74,7 +87,7 @@
       <v-col cols="12" md="5">
         <v-row>
           <v-col cols="12" md="6">
-            <v-card variant="tonal" width="100%" class="px-5 py-5">
+            <v-card width="100%" class="px-5 py-5">
               <img
                 width="100%"
                 src="https://www.puatc.ac.th//files/10000001_22012416160333.jpg"
@@ -86,7 +99,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6">
-            <v-card variant="tonal" width="100%" class="px-5 py-5">
+            <v-card width="100%" class="px-5 py-5">
               <img
                 width="100%"
                 src="http://puatc.ac.th//files/10000001_22012511114209.jpg"
@@ -120,7 +133,7 @@
       <v-col cols="12" md="5">
         <v-row>
           <v-col cols="12" md="6">
-            <v-card variant="tonal" width="100%" class="px-5 py-5">
+            <v-card width="100%" class="px-5 py-5">
               <img
                 width="100%"
                 src="http://puatc.ac.th//files/10000001_22030113132838.jpg"
@@ -135,7 +148,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6">
-            <v-card variant="tonal" width="100%" class="px-5 py-5">
+            <v-card width="100%" class="px-5 py-5">
               <img
                 width="100%"
                 src="https://www.puatc.ac.th//files/10000001_22022311111126.jpg"
