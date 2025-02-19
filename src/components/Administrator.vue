@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container class="mb-5">
       <v-card class="pa-4">
         <v-card-title class="text-h6 font-weight-bold text-center">ทำเนียบผู้บริหาร</v-card-title>
         <v-row justify="center">

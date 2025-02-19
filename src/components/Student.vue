@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mx-20 px-16">
+  <v-container class="mx-20 px-16 mb-10">
     <v-table>
       <thead>
         <tr bgcolor="gray" class="text-white">

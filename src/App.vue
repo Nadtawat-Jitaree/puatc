@@ -1,29 +1,26 @@
 <template>
   <v-app>
-    <Navbar/>
+    <Navbar class="mb-10" />
     <router-view />
+
+    <AppFooter />
   </v-app>
 </template>
 
 <script>
 import Navbar from "./components/navbar.vue";
+import AppFooter from "./components/AppFooter.vue";
+
 export default {
   data() {
-    return {
-      
-    }
+    return {};
   },
-  computed: {
-    
-  },
-  methods: {
-    
-  },
-  mounted() {
-    
-  },
+  computed: {},
+  methods: {},
+  mounted() {},
   components: {
-    Navbar
-  }
-}
+    Navbar,
+    AppFooter,
+  },
+};
 </script>
