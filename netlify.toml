@@ -1,9 +1,7 @@
 [[redirects]]
-  from = "/data/success/"
-  force = true
-  headers = {X-From = "Netlify"}
-  to = "https://pua.puanj.com/data/success/success.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
   
 [[redirects]]
   from = "/*"
