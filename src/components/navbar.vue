@@ -28,7 +28,7 @@
             </v-btn>
           </template>
 
-          <v-list>
+          <v-list  style="z-index: 999;">
             <v-list-item
               v-for="(item, index) in AdministratorItems"
               :key="index"

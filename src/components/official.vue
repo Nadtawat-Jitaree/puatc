@@ -16,80 +16,90 @@
       </v-card>
     </v-container>
   </template>
-  
+  <script>
+  import img1 from "@/assets/official/1.jpg";
+  import img2 from "@/assets/official/2.jpg";
+  import img3 from "@/assets/official/3.jpg";
+  import img4 from "@/assets/official/4.jpg";
+  import img5 from "@/assets/official/5.png";
+  import img6 from "@/assets/official/6.jpg";
+  import img7 from "@/assets/official/7.jpg";
+  import avatar from "@/assets/official/avatar.png";
+
+</script>
   <script setup>
   const admins = [
     {
       name: "นางสาวจันทิรา สุทธหลวง",
       position: "ครูชำนาญการ",
       role: "หัวหน้าการเงิน",
-      image: "http://puatc.ac.th//files/10000001_21120910104200.jpg",
+      image: img1,
     },
     {
       name: "นายชัยวุฒิ ธงเงิน",
       position: "ครูชำนาญการ",
       role: "หัวหน้างานทะเบียน",
-      image: "http://puatc.ac.th//files/10000001_21120815154925.jpg",
+      image: img2,
     },
     {
       name: "นายภควัตร วงศ์ยังประเสิรฐ",
       position: "ครูชำนาญการ",
       role: "หัวหน้างานพัสดุ",
-      image: "http://puatc.ac.th//files/10000001_21120216163904.jpg",
+      image: img3,
     },
     {
       name: "นายสมศักดิ์ ตันดี",
       position: "ครูชำนาญการพิเศษ",
       role: "หัวหน้าแผนกแม็คคาทรอนิกส์",
-      image: "http://puatc.ac.th//files/10000001_21120216163116.jpg",
+      image: img4,
     },
     {
       name: "นายภัทรวิชญ์ กำหนดศรี",
       position: "ครูผู้ช่วย",
       role: "ผู้ช่วยหัวหน้างานความร่วมมือ	",
-      image: "http://puatc.ac.th//files/10000001_2307050995231.png",
+      image: img5,
     },
     {
       name: "นายคธาวุฒิ รักษ์รงค์",
       position: "ครู",
       role: "หัวหน้างานปกครอง",
-      image: "http://puatc.ac.th//files/10000001_2112080994447.jpg",
+      image: img6,
     },
     {
       name: "นางสาวชนกเนตร  มะโนชัย",
       position: "ครู",
       role: "หัวหน้างานพัฒนาหลักสูตรการเรียนการสอน",
-      image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+      image: avatar,
     },
     {
       name: "นายณรงค์ชัย บุญเทพ",
       position: "ครู",
       role: "หัวหน้างานวัดผลและประเมินผล",
-      image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+      image: avatar,
     },
     {
       name: "นายไกรสิทธิ์ อิ่นคำ",
       position: "ครู",
       role: "หัวหน้างานวางแผนและงบประมาณ",
-      image: "http://puatc.ac.th//files/10000001_21120810102418.jpg",
+      image: img7,
     },
     {
       name: "นางสาวสุดาทิพย์  ไชยยะ",
       position: "ครู",
       role: "หัวหน้างานวางแผนและงบประมาณ",
-      image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+      image: avatar,
     },
     {
       name: "นายไกรภพ อานัน",
       position: "ครู",
       role: "ผู้ช่วยหัวหน้างานวางแผนและงบประมาณ",
-      image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+      image: avatar,
     },
     {
       name: "นายกิติกุล ทะนันไชย",
       position: "ครู",
       role: "หัวหน้างานบุคลากร",
-      image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+      image: avatar,
     },
   ];
   </script>
