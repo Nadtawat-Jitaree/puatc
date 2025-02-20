@@ -1,8 +1,8 @@
 <template>
   <v-row>
-    <v-col cols="4"></v-col>
-    <v-col cols="4">
-      <v-container class="mx-20 px-16">
+    <v-col cols="12" md="4"></v-col>
+    <v-col cols="12" md="4">
+      <v-container class="mx-lg-20 px-lg-16">
         <img
           src="https://www.puatc.ac.th//files/10000001_22012416160333.jpg"
           alt=""
@@ -14,7 +14,7 @@
         </div>
       </v-container>
     </v-col>
-    <v-col cols="4"></v-col>
+    <v-col cols="12" md="4"></v-col>
   </v-row>
 </template>
   
