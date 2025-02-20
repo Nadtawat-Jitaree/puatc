@@ -24,86 +24,101 @@
     </v-card>
   </v-container>
 </template>
-  
+  <script>
+import img1 from "@/assets/officer/1.jpg";
+import img2 from "@/assets/officer/2.jpg";
+import img3 from "@/assets/officer/3.jpg";
+import img4 from "@/assets/officer/4.jpg";
+import img5 from "@/assets/officer/5.jpg";
+import img6 from "@/assets/officer/6.jpg";
+import img7 from "@/assets/officer/7.jpg";
+import img8 from "@/assets/officer/8.png";
+import img9 from "@/assets/officer/9.png";
+import img10 from "@/assets/officer/10.png";
+import img11 from "@/assets/officer/11.png";
+import img12 from "@/assets/officer/12.png";
+import avatar from "@/assets/officer/avatar.png";
+
+</script>
   <script setup>
 const admins = [
   {
     name: "นายวัตพงค์ บุญเทพ",
     position: "เจ้าหน้าที่",
     role: "หัวหน้างานแนะแนวอาชีพและการจัดหางาน",
-    image: "http://puatc.ac.th//files/10000001_21121315151447.jpg",
+    image: img1,
   },
   {
     name: "นางสาวอารียา จิตอารีย์",
     position: "เจ้าหน้าที่",
     role: "งานทะเบียน",
-    image: "http://puatc.ac.th//files/10000001_22030110101337.jpg",
+    image: img2,
   },
   {
     name: "นางสุดารัตน์ สมบัติกำไร",
     position: "เจ้าหน้าที่",
     role: "งานกิจกรรมนักเรียนนักศึกษา",
-    image: "http://puatc.ac.th//files/10000001_21121410105942.jpg",
+    image: img3,
   },
   {
     name: "นายศรีศักดิ์ อาภรณ์ศิริ",
     position: "เจ้าหน้าที่",
     role: "พนักงานขับรถ",
-    image: "http://puatc.ac.th//files/10000001_21120915154051.jpg",
+    image: img4,
   },
   {
     name: "นายจตุพล ระขะไพ",
     position: "เจ้าหน้าที่",
     role: "พนักงานขับรถ",
-    image: "http://puatc.ac.th//files/10000001_21120915154053.jpg",
+    image: img5,
   },
   {
     name: "นางสาวมัทนา  ยาปัน",
     position: "เจ้าหน้าที่",
     role: "งานอาคารสถานที่",
-    image: "https://www.puatc.ac.th//files/10000001_23071114144315.jpg",
+    image: img6,
   },
   {
     name: "นางสาวภัทยา ธัญญะ",
     position: "เจ้าหน้าที่",
     role: "งานบุคลากร",
-    image: "http://puatc.ac.th//files/10000001_21120916160025.jpg",
+    image: img7,
   },
   {
     name: "นางสาวนัทธมน  มูลคำ",
     position: "เจ้าหน้าที่",
     role: "งานส่งเสริมผลิตผลการค้า",
-    image: "http://puatc.ac.th//files/10000001_23070510103807.png",
+    image: img8,
   },
   {
     name: "นางสาวปรัชญา  วรรณโกฏิ",
     position: "เจ้าหน้าที่",
     role: "งานสารบรรณ",
-    image: "http://puatc.ac.th//files/10000001_23070510105800.png",
+    image: img9,
   },
   {
     name: "นางสาวกุลณัฐ  ชนาภิมุข",
     position: "เจ้าหน้าที่",
     role: "งานวัดผลและประเมินผล",
-    image: "http://puatc.ac.th//files/10000001_23070510104346.png",
+    image: img10,
   },
   {
     name: "นางภัทรานิษฐ์  ชุ่มเย็น",
     position: "เจ้าหน้าที่",
     role: "งานสวัสดิการ(จำนานคูปองฯ)",
-    image: "http://puatc.ac.th//files/10000001_23070510104014.png",
+    image: img11,
   },
   {
     name: "นายวีรพงษ์  อุ่มมี",
     position: "เจ้าหน้าที่",
     role: "งานศูนย์ข้อมูลสารสนเทศ",
-    image: "https://www.puatc.ac.th//files/10000001_23070615151730.png",
+    image: img12,
   },
   {
     name: "นายพงษ์พิสุทธิ์ ฑีฆาวงศ์",
     position: "เจ้าหน้าที่",
     role: "งานประชาสัมพันธ์",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
 ];
 </script>

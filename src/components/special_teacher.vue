@@ -24,200 +24,219 @@
     </v-card>
   </v-container>
 </template>
-  
+  <script>
+import img1 from "@/assets/special_teacher/1.jpg";
+import img2 from "@/assets/special_teacher/2.jpg";
+import img3 from "@/assets/special_teacher/3.jpg";
+import img4 from "@/assets/special_teacher/4.jpg";
+import img5 from "@/assets/special_teacher/5.jpg";
+import img6 from "@/assets/special_teacher/6.jpg";
+import img7 from "@/assets/special_teacher/7.jpg";
+import img8 from "@/assets/special_teacher/8.jpg";
+import img9 from "@/assets/special_teacher/9.jpg";
+import img10 from "@/assets/special_teacher/10.png";
+import img11 from "@/assets/special_teacher/11.png";
+import img12 from "@/assets/special_teacher/12.png";
+import img13 from "@/assets/special_teacher/13.png";
+import img14 from "@/assets/special_teacher/14.jpg";
+import img15 from "@/assets/special_teacher/15.jpg";
+import img16 from "@/assets/special_teacher/16.jpg";
+import avatar from "@/assets/special_teacher/avatar.png";
+
+</script>
   <script setup>
 const admins = [
   {
     name: "นายชลิต จิตอารีย์",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้าอาคารฯ",
-    image: "http://puatc.ac.th//files/10000001_21120815155244.jpg",
+    image: img1,
   },
   {
     name: "นายธวัชชัย พิพิทธภัณฑ์",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21120811111835.jpg",
+    image: img2,
   },
   {
     name: "นายเกียรติศักดิ์ โนราช",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้าอาคารฯ",
-    image: "http://puatc.ac.th//files/10000001_21120815155019.jpg",
+    image: img3,
   },
   {
     name: "นางสาวทิชานุช เหล่าใหญ่",
     position: "ครูพิเศษสอน",
     role: "หัวหน้างานส่งเสริมผลิตผลฯ",
-    image: "http://puatc.ac.th//files/10000001_21121416162945.jpg",
+    image: img4,
   },
   {
     name: "นายตรัณ บัณฑิต",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21120911114323.jpg",
+    image: img5,
   },
   {
     name: "นายอนุชิต  การินทร์",
     position: "ครูพิเศษสอน",
     role: "หัวหน้างานกิจกรรมนักเรียนนักศึกษา",
-    image: "https://www.puatc.ac.th//files/10000001_2307130885310.jpg",
+    image: img6,
   },
   {
     name: "นางสาวเกศแก้ว ใจซื่อดี",
     position: "ครูพิเศษสอน",
     role: "หัวหน้าแผนกเทคนิคพื้นฐาน",
-    image: "http://puatc.ac.th//files/10000001_21121314142518.jpg",
+    image: img7,
   },
   {
     name: "นางสาวอภิรดี ปรังฤทธิ์",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานทะเบียน",
-    image: "http://puatc.ac.th//files/10000001_21121315151210.jpg",
+    image: img8,
   },
   {
     name: "นางสาวทิพาพร ปัญญาภู",
     position: "ครูพิเศษสอน",
     role: "หัวหน้างานวิทยบริการและห้องสมุด",
-    image: "http://puatc.ac.th//files/10000001_21120911114326.jpg",
+    image: img9,
   },
   {
     name: "นายศุภวัฒน์  ชราพก",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_23070510103328.png",
+    image: img10,
   },
   {
     name: "นางสาวนภัสสร แสงทอง",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานพัฒนาหลักสูตรการเรียนการสอน",
-    image: "http://puatc.ac.th//files/10000001_2307050994638.pngs",
+    image: img11,
   },
   {
     name: "นางสาวปีย์รดา  สอนวงษา",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานพัฒนาหลักสูตรการเรียนการสอน",
-    image: "https://www.puatc.ac.th//files/10000001_2309260884038.png",
+    image: img12,
   },
   {
     name: "นายเอกพล  อุตรชน",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_23070510103449.png",
+    image: img13,
   },
   {
     name: "นายณัฐพล  อุปถัมภ์",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายทศวรรษ  กันฟอง",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นางสาวทิพาพร  ปัญญาภู",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานประชาสัมพันธ์",
-    image: "https://www.puatc.ac.th//files/10000001_2307130884701.jpg",
+    image: img14,
   },
   {
     name: "นายธนาวัฒน์  เทพกัน",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นางสาวปรีญาภรณ์  อุตเรือน",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "https://www.puatc.ac.th//files/10000001_23071411114212.jpg",
+    image: img15,
   },
   {
     name: "นายมานะชัย  วีระวงศ์",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นางสาวรุ่งทิวา  อุดทา",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นางสาววรกมล  สุดสม",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายวิชัย  จิตอารีย์",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายวิทูล  อุดอ้าย",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายศักรนันทน์  ไชยศิลป์",
     position: "ครูพิเศษสอน",
     role: "เจ้าหน้าที่ส่งเสริมผลฯ",
-    image: "https://www.puatc.ac.th//files/10000001_2307130885147.jpg",
+    image: img16,
   },
   {
     name: "นายศุภกร  เชื้อหมอ",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานที่ปรึกษา",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายศุภณัฐ ไชยศิลป์",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายเสกสรรค์  ไชยศิลป์",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานแนะแนว",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายเสฏฐวุฒิ  ศรีวิกะ",
     position: "ครูพิเศษสอน",
     role: "ผู้ช่วยหัวหน้างานศูนย์ข้อมูลสารสนเทศ",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายเอกวัฒน์  เขื่อนธนะ",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นางสาวอรทัย  แรกเรียง",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายอำนวย  กันศร",
     position: "ครูพิเศษสอน",
     role: "-",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายเอกรัตน์  อายุยืน",
     position: "ครูพิเศษสอน",
     role: "หัวหน้าสื่อการเรียนการสอน",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
 ];
 </script>

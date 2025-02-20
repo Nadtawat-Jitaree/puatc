@@ -24,7 +24,14 @@
       </v-card>
     </v-container>
   </template>
-  
+  <script>
+import img1 from "@/assets/Administrator/1.png";
+import img2 from "@/assets/Administrator/2.png";
+import img3 from "@/assets/Administrator/3.jpg";
+import img4 from "@/assets/Administrator/4.png";
+import img5 from "@/assets/Administrator/5.jpg";
+
+</script>
   <script setup>
   const admins = [
     {
@@ -32,35 +39,35 @@
       position: "ผู้อำนวยการเชี่ยวชาญ วิทยาลัยเทคนิคปัว",
       role: "ผู้อำนวยการ",
       phone: "0823398295",
-      image: "https://www.puatc.ac.th//files/10000001_23100215152918.png", // แทนที่ด้วย URL รูปจริง
+      image: img1, // แทนที่ด้วย URL รูปจริง
     },
     {
       name: "นางฐิติกันต์ จันทร์เจียม",
       position: "รองผู้อำนวยการวิทยาลัยเทคนิคปัว",
       role: "รองผู้อำนวยการฝ่ายพัฒนากิจการนักเรียน นักศึกษา",
       phone: "085-716-8707",
-      image: "https://www.puatc.ac.th//files/10000001_23100215154609.png",
+      image: img2,
     },
     {
       name: "นายจตุรนต์ แสนโซ้ง",
       position: "รองผู้อำนวยการวิทยาลัยเทคนิคปัว",
       role: "รองผู้อำนวยการฝ่ายบริหารทรัพยากร",
       phone: "097-971-7556",
-      image: "http://puatc.ac.th/files/10000001_2112020993232.jpg",
+      image: img3,
     },
     {
       name: "นายณัฏฐกิตติ์ สีนวลเขียว",
       position: "รองผู้อำนวยการวิทยาลัยเทคนิคปัว",
       role: "รองผู้อำนวยการฝ่ายวิชาการ",
       phone: "084-367-1942",
-      image: "https://www.puatc.ac.th//files/10000001_2402070885801.png",
+      image: img4,
     },
     {
       name: "นายไชย จักรอะโน",
       position: "รองผู้อำนวยการวิทยาลัยเทคนิคปัว",
       role: "รองผู้อำนวยการฝ่ายแผนงานและความร่วมมือ",
       phone: "083-567-2878",
-      image: "http://puatc.ac.th/files/10000001_2112020995644.jpg",
+      image: img5,
     },
   ];
   </script>

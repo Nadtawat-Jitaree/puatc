@@ -23,63 +23,72 @@
     </v-card>
   </v-container>
 </template>
-  
+  <script>
+import img1 from "@/assets/janitor/1.jpg";
+import img2 from "@/assets/janitor/2.jpg";
+import img3 from "@/assets/janitor/3.jpg";
+import img4 from "@/assets/janitor/4.jpg";
+import img5 from "@/assets/janitor/5.jpg";
+import avatar from "@/assets/janitor/avatar.png";
+
+
+</script>
   <script setup>
 const admins = [
   {
     name: "นางจันทร์ ศิริรัตน์",
     position: "นักการภารโรง",
-    image: "https://www.puatc.ac.th//files/10000001_23071114143404.jpg",
+    image: img1,
   },
   {
     name: "นางภาถาพันธ์ ขระสุ",
     position: "นักการภารโรง",
-    image: "http://puatc.ac.th//files/10000001_21121313131604.jpg",
+    image: img2,
   },
   {
     name: "นายศรายุทธ ยะแสง",
     position: "นักการภารโรง",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายธีรวัฒน์  วารีทิพย์",
     position: "นักการภารโรง",
-    image: "https://www.puatc.ac.th//files/10000001_23071114143358.jpg",
+    image: img3,
   },
   {
     name: "นายถาวร  วังสาร",
     position: "นักการภารโรง",
-    image: "https://www.puatc.ac.th//files/10000001_23071114143440.jpg",
+    image: img4,
   },
   {
     name: "นายบุญส่ง  วชิราธนกิจ",
     position: "นักการภารโรง",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายประเทือง  อักขระ",
     position: "นักการภารโรง(บ่อหยวก)",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นางระเบียบ  วารีทิพย์",
     position: "นักการภารโรง",
-    image: "https://www.puatc.ac.th//files/10000001_23071114143931.jpg",
+    image: img5,
   },
   {
     name: "นางทิวาภรณ์  ไชยศิลป์",
     position: "นักการภารโรง",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายวิชุวัฒน์  มาณะกิจ",
     position: "ยามรักษาการณ์",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
   {
     name: "นายอาทิตย์  ศุปภัทรสรณ์",
     position: "ยามรักษาการณ์",
-    image: "http://puatc.ac.th//files/10000001_21121314143514.png",
+    image: avatar,
   },
 ];
 </script>
