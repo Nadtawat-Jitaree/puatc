@@ -1,2 +1,4 @@
-Project ปวช.ปี 3 (เทอม 2)
-Vuejs
+Project School Website ปวช.ปี 3 (เทอม 2)
+
+Language Html+Css+JavaScript
+Framework Vuejs
